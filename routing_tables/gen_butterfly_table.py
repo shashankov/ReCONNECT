@@ -22,5 +22,5 @@ if __name__ == "__main__":
             table_file = open("%s/%0d_%0d.hex" % (table_prefix, stage, router), "w")
             for i in range(K ** N):
                 dest = (i // (K ** stage)) % K
-                table_file.write("%d\n" % (dest))
+                table_file.write("%x\n" % (dest))
             table_file.close()

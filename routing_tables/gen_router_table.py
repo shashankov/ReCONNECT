@@ -19,5 +19,5 @@ if __name__ == "__main__":
 
     table_file = open("%s/table.hex" % (table_prefix), "w")
     for i in range(num_outputs):
-        table_file.write("%d\n" % (i))
+        table_file.write("%x\n" % (i))
     table_file.close()
