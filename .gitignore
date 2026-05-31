@@ -10,6 +10,8 @@ transcript
 # Test related
 obj_dir/
 regress_logs/
+test/*.csv
+test/*.png
 
 # Vivado generated
 .Xil/
